@@ -9,9 +9,18 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 body{
     font-family: 'Albert Sans';
-    margin: 72px 16px 0px 16px;
+    margin: 72px 20px 0px 20px;
+    background-image: url(../assets/img/main-background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .container {
@@ -26,8 +35,32 @@ h1 {
     font-weight: 400;
     font-size: 60px;
     line-height: 79px;
+    color: #fff;
 }
 
 p {
     max-width: 800px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px;
+    font-weight: 300;
+    margin-top: 44px;
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 560px;
+    background-color: #F21C42;
+    padding: 16px 0px;
+    border-radius: 12px;
+    font-weight: 900;
+    font-size: 18;
+    font-style: normal;
+    margin-top: 72px;
+
 }
