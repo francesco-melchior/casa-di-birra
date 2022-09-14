@@ -10,15 +10,15 @@
     border: 1px solid blue;
 }
 
+body{
+    font-family: 'Albert Sans';
+}
+
 h1 {
     font-family: 'Sunwish Maverick';
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 60px;
     line-height: 79px;
-    display: flex;
-    align-items: center;
-    min-width: 366px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
+
