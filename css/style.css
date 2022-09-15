@@ -16,12 +16,25 @@ a {
 
 body {
     font-family: 'Albert Sans';
-    margin: 64px 22px 0px 22px;
+    margin: 64px 26px 0px 26px;
     background-image: url(../assets/img/main-background-darken.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
+@media (max-width: 401px) {
+    body{
+        margin: 64px 20px 0px 20px;
+    }
+
+    body h1{
+        font-size: 60px;
+    }
+
+  }
+
+
 
 li {
     list-style: none;
@@ -42,14 +55,14 @@ li {
 }
 
 .nav-logo {
-    width: 271px;
-    height: 58px;
+    width: 239px;
+    height: 52px;
 }
 
 .hamburger {
     /* display: none; */
     cursor: pointer;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .bar{
@@ -72,7 +85,7 @@ h1 {
     font-family: 'Sunwish Maverick';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 70px;
     line-height: 79px;
     color: #fff;
     max-width: 590px;
