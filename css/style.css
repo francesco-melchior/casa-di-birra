@@ -215,6 +215,20 @@ p {
     margin-top: 72px;
 
 }
+.button-pure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 590px;
+    background-color: #F21C42;
+    padding: 16px 0px;
+    border-radius: 12px;
+    font-weight: 900;
+    font-size: 18;
+    font-style: normal;
+
+}
 
 
 
@@ -222,9 +236,11 @@ p {
 
 /* VARIEDADES */
 
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 44px;
     column-gap: 16px;
     align-items: center;
@@ -232,13 +248,27 @@ p {
 }
 
 .grid-title {
-    font-family: 'Albert Sans';
+    font-family: 'Sunwish Maverick';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 60px;
 }
 
+.grid-subtitle{
+    font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 700;
+color: #fff;
+margin-top: 72px;
+margin-bottom: 24px;
+}
+
+.music-p{
+    margin-top: 24px;
+    margin-bottom: 72px;
+    font-size: 18px;
+    line-height: 26px;
+}
 
 .music-uno{
     grid-column: 1;
@@ -283,11 +313,14 @@ p {
 }
 
 /* PÁRRAFOS DENTRO DE LAS IMÁGENES DEL GRID */
-.music-uno-p, .music-dos-p{
+
+
+.music-uno-p, .music-dos-p, .music-tres-p, .music-cuatro-p, .music-cinco-p, .music-seis-p, .music-siete-p, .music-ocho-p{
     margin-top: 8px;
     width: 100%;
     min-height: 44px;
     max-height: 44px;
+    max-width: 263px;
     overflow: hidden;
 }
 
