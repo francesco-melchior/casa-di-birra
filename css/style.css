@@ -215,6 +215,7 @@ p {
     margin-top: 72px;
 
 }
+
 .button-pure {
     display: flex;
     align-items: center;
@@ -254,59 +255,65 @@ p {
     font-size: 60px;
 }
 
-.grid-subtitle{
+.grid-subtitle {
     font-family: 'Albert Sans';
-font-style: normal;
-font-weight: 700;
-color: #fff;
-margin-top: 72px;
-margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 72px;
+    margin-bottom: 24px;
 }
 
-.music-p{
+.music-p {
     margin-top: 24px;
     margin-bottom: 72px;
     font-size: 16px;
     line-height: 24px;
 }
 
-.music-uno{
+.music-uno {
     grid-column: 1;
     grid-row: 1;
     width: 100%;
 }
 
-.music-dos{
+.music-dos {
     grid-column: 2;
     grid-row: 1;
     width: 100%;
 }
-.music-tres{
+
+.music-tres {
     grid-column: 1;
     grid-row: 2;
     width: 100%;
 }
-.music-cuatro{
+
+.music-cuatro {
     grid-column: 2;
     grid-row: 2;
     width: 100%;
 }
-.music-cinco{
+
+.music-cinco {
     grid-column: 1;
     grid-row: 3;
     width: 100%;
 }
-.music-seis{
+
+.music-seis {
     grid-column: 2;
     grid-row: 3;
     width: 100%;
 }
-.music-siete{
+
+.music-siete {
     grid-column: 1;
     grid-row: 4;
     width: 100%;
 }
-.music-ocho{
+
+.music-ocho {
     grid-column: 2;
     grid-row: 4;
     width: 100%;
@@ -315,7 +322,14 @@ margin-bottom: 24px;
 /* PÁRRAFOS DENTRO DE LAS IMÁGENES DEL GRID */
 
 
-.music-uno-p, .music-dos-p, .music-tres-p, .music-cuatro-p, .music-cinco-p, .music-seis-p, .music-siete-p, .music-ocho-p{
+.music-uno-p,
+.music-dos-p,
+.music-tres-p,
+.music-cuatro-p,
+.music-cinco-p,
+.music-seis-p,
+.music-siete-p,
+.music-ocho-p {
     margin-top: 8px;
     width: 100%;
     min-height: 44px;
@@ -326,9 +340,41 @@ margin-bottom: 24px;
 
 
 
+/* DETALLES CERVEZAS */
 
+.container-detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
 
+.container-detalles img {
+    width: 227px;
+    height: 542px;
+    max-width: 590px;
+}
 
+.container-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.p-detalles{
+    max-width: 590px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
 
 
 
@@ -366,7 +412,6 @@ footer {
     flex-direction: column;
     background-color: black;
     align-items: center;
-    border-radius: 12px;
 }
 
 
