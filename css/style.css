@@ -210,7 +210,7 @@ p {
     padding: 16px 0px;
     border-radius: 12px;
     font-weight: 900;
-    font-size: 18;
+    font-size: 16px;
     font-style: normal;
     margin-top: 72px;
 
@@ -226,9 +226,29 @@ p {
     padding: 16px 0px;
     border-radius: 12px;
     font-weight: 900;
-    font-size: 18;
+    font-size: 16px;
     font-style: normal;
+}
 
+.button-pure-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 590px;
+    background-color: #F21C42;
+    padding: 10px 0px;
+    border-radius: 12px;
+    font-weight: 900;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.icon-on-button img{
+    height: 32px;
+    width: auto;
+    margin-left: 12px;
+    margin-top: 2px;
 }
 
 
@@ -375,27 +395,6 @@ p {
     margin-top: 24px;
     margin-bottom: 44px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
