@@ -501,11 +501,11 @@ footer div p {
 @keyframes scroll {
     0% {
         -webkit-transform: translateX(0);
-        tranform: translateX(0);
+        /* tranform: translateX(0); */
     }
 
     100% {
         -webkit-transform: translateX(calc(-400px * 8));
-        tranform: translateX(calc(-400px * 8));
+        /* tranform: translateX(calc(-400px * 8)); */
     }
 }
