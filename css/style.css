@@ -478,13 +478,14 @@ footer div p {
     margin-top: 72px;
     width: 100%;
     overflow: hidden;
+    overflow-x: scroll;
 }
 
 
 .slider .slide-track {
     display: flex;
     gap: 16px;
-    animation: scroll 0s linear infinite;
+    animation: scroll 40s linear infinite;
     width: calc(200px * 16);
     -webkit-animation: scroll 40s linear infinite;
 }
