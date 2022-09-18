@@ -145,8 +145,9 @@ header nav a {
     align-self: flex-start;
 }
 
-
-
+.non-available {
+    color: #4D4D4D;
+}
 
 
 
