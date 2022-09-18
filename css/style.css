@@ -485,9 +485,9 @@ footer div p {
 .slider .slide-track {
     display: flex;
     gap: 16px;
-    animation: scroll 40s linear infinite;
+    /* animation: scroll 40s linear infinite; */
     width: calc(200px * 16);
-    -webkit-animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 15s linear infinite;
 }
 
 .slider .slide {
@@ -505,7 +505,7 @@ footer div p {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-400px * 8));
+        -webkit-transform: translateX(calc(-150px * 8));
         /* tranform: translateX(calc(-400px * 8)); */
     }
 }
