@@ -22,7 +22,7 @@ li {
 body {
     font-family: 'Albert Sans';
     /* margin: 64px 26px 0px 26px; */
-    background-image: url(../assets/img/background-mobile.png);
+    background-image: url(../assets/img/main-background-but-darker-and-longer.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ p {
     width: 100%;
     max-width: 590px;
     background-color: #F21C42;
-    padding: 10px 0px;
+    padding: 6px 0px;
     border-radius: 12px;
     font-weight: 900;
     font-size: 16px;
